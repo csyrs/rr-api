@@ -1,0 +1,10 @@
+{
+    "name": "rr-api",
+    "version": "1.0.0",
+    "license": "CC0-1.0",
+    "author": "Casey Ross",
+    "main": "index.js",
+    "dependencies": {
+        "rr-lib": "git://github.com/caseyross/rr-lib.git"
+    }
+}
