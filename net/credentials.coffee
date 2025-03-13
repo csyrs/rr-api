@@ -17,6 +17,7 @@ credentials = {
 
 	forget: ->
 		delete localStorage['api.credentials.associated_name']
+		delete localStorage['api.credentials.exchange_code']
 		delete localStorage['api.credentials.exchange_echo']
 		delete localStorage['api.credentials.exchange_token']
 		delete localStorage['api.credentials.key']
