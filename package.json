@@ -1,6 +1,6 @@
 {
     "name": "rr-api",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "CC0-1.0",
     "author": "Casey Ross",
     "main": "index.js",
