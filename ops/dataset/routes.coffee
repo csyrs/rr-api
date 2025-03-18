@@ -127,6 +127,14 @@ export default {
 		})
 	search_subreddits_autocomplete: (search_text, max_subreddits) ->
 		get("/api/subreddit_autocomplete_v2", {
+			include_over_18: false
+			include_profiles: false
+			limit: max_subreddits
+			query: search_text # 1-25 chars
+			typeahead_active: true
+		})
+	search_subreddits_autocomplete_nsfw: (search_text, max_subreddits) ->
+		get("/api/subreddit_autocomplete_v2", {
 			include_over_18: true
 			include_profiles: false
 			limit: max_subreddits
